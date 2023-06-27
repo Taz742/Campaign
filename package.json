@@ -1,0 +1,24 @@
+{
+  "name": "kickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "deploy": "node ./ethereum/deploy.js",
+    "compile": "node ./ethereum/compile.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.12",
+    "dotenv": "^16.1.4",
+    "encoding": "^0.1.13",
+    "fs-extra": "^11.1.1",
+    "ganache": "^7.8.0",
+    "keyv": "^4.5.2",
+    "mocha": "^9.2.2",
+    "solc": "^0.8.20",
+    "web3": "^1.10.0"
+  }
+}
